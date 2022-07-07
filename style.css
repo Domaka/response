@@ -1,3 +1,8 @@
+#forthewholebody{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
 #buildsay{
     color:  hsl(192, 100%, 9%);
 }
@@ -17,6 +22,8 @@
 #forthefirstpart{
     background-color: lightblue;
     background-image: url(bg-hero-desktop.svg);
+    border-radius: 10px;
+    box-shadow: 2em;
 }
 #myimg{
 gap: 2em;
@@ -52,6 +59,8 @@ gap: 2em;
     width: 70em;
     gap: 2em;
     Font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 2em;
 }
 #flow{
     color:  hsl(208, 11%, 55%);
@@ -67,6 +76,8 @@ gap: 2em;
     width: 70em;
     gap: 2em;
     Font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 2em;
 
 }
 #user{
@@ -83,10 +94,26 @@ gap: 2em;
     width: 70em;
     gap: 2em;
     Font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 2em;
 }
 #fortheblackbottom{
 background-color: hsl(192, 100%, 9%);
+color: white;
 display: flex;
 gap: 2em;
-margin: 2e,;
+margin: 2em;
+
+}
+#aboutpart{
+    margin: 5em;
+
+}
+#careerpart{
+    margin: 5em;
+
+}
+#facebookpart{
+    margin: 5em;
+
 }
